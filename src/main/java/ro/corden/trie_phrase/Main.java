@@ -10,7 +10,12 @@ public class Main {
         trie.insertPhrase("citeste");
         trie.insertPhrase("lucreaza azi");
 
-        trie.containsPhrase("ana are mere");
+        trie.initSearchPhraseByWord();
+        var ana = trie.searchPhraseByWord("ana");
+        var are = trie.searchPhraseByWord("are");
+        var mere = trie.searchPhraseByWord("mere");
+
+
 
         return;
     }
