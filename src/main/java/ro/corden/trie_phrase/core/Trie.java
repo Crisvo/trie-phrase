@@ -87,4 +87,8 @@ public class Trie {
     public void initSearchPhraseByWord() {
         this.partialPhraseSearching = new LinkedList<>();
     }
+
+    public List<String> getPartialPhraseSearching() {
+        return partialPhraseSearching;
+    }
 }
